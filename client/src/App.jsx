@@ -7,7 +7,7 @@ import {
   updateCircle, updateRect
 } from './http/shapeApi';
 import { maxWidth, maxHeight, colors } from './consts';
-import './scss/style.scss';
+import './css/style.css';
 
 const random = (min, max) => {
   return Math.random() * (max - min) + min;
